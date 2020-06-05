@@ -8,7 +8,6 @@ namespace APIProgram.Controllers
     public class ExplosionController : ControllerBase
     {
         [HttpGet("{explosion}")]
-
         public string Boom(string explosion)
         {
             // create blank string for input of answer
@@ -29,6 +28,7 @@ namespace APIProgram.Controllers
                 }
                 // return the string of numbers that are duplicated
             }
+
             return answer;
         }
     }
